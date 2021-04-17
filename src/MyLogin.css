@@ -1,0 +1,56 @@
+.root {
+    height: 100vh;
+}
+
+.image {
+    background-image: url(https://source.unsplash.com/CQfNt66ttZM);
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+}
+
+.paper {
+      /*margin: theme.spacing(8, 4);*/
+    margin-top: 64px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    /*  margin: theme.spacing(1);*/
+    margin: 8px;
+    background-color: black;
+}
+
+.form {
+    width: 100%;
+    /*margin-top: theme.spacing(1);
+    */
+    margin-top: 8px;
+}
+
+.submit {
+    /*  margin: theme.spacing(3, 0, 2);*/
+    margin-top: 24px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+}
+
+.marginAutoContainer {
+    display: flex;
+}
+
+.marginAutoItem {
+    background-color: gold;
+}
+
+.alignItemsAndJustifyContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(67,67,67,0.95)!important;
+    color:white!important;
+}
